@@ -4,7 +4,7 @@ package HelloWorld
  *
  */
 class HelloWorld {
-  def hello() = println("Hello world!")
+  def hello() : Void = println("Hello world!")
 }
 
 object Main extends App {
