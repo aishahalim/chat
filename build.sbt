@@ -10,6 +10,6 @@ libraryDependencies += "com.typesafe.akka" % "akka-actor_2.10" % "2.2-M1"
 
 libraryDependencies += "org.scalatest" % "scalatest_2.10" % "1.9.1" % "test"
 
-scalaSource in Compile := file("src/HelloActor")
+scalaSource in Compile := file("src/Messaging")
 
 scalaSource in Test := file("test/Messaging")
